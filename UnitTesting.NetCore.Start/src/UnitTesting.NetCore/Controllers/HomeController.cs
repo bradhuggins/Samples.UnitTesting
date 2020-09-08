@@ -27,7 +27,7 @@ namespace UnitTesting.NetCore.Controllers
             {
                 toReturn = "Good Evening, ";
             }
-            toReturn += Environment.NewLine;
+            toReturn += input + Environment.NewLine;
 
             //Generate Days in Year Remaining
             DateTime end = new DateTime(serverTime.Year + 1, 1, 1);
